@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
+<html lang="es"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Banquitas del Tejar — Torneo</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Saira+Condensed:wght@500;600;700;800&family=Saira:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Saira+Condensed:wght@500;600;700;800&amp;family=Saira:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 <style>
 :root{
   --maroon:#8E2A39; --maroon-dk:#6E1F2C; --navy:#1B3A66; --navy-dk:#13284a;
@@ -385,23 +384,23 @@ footer{text-align:center;font-family:'Saira Condensed';color:var(--muted);font-s
 <body>
 <header>
   <div class="wrap">
-    <svg class="ball" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="none" stroke="#fff" stroke-width="3"/><path d="M50 14 L70 30 L62 56 L38 56 L30 30Z" fill="#fff"/><path d="M50 86 L30 72 M50 86 L70 72 M14 44 L30 56 M86 44 L70 56" stroke="#fff" stroke-width="3" fill="none"/></svg>
+    <svg class="ball" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="none" stroke="#fff" stroke-width="3"></circle><path d="M50 14 L70 30 L62 56 L38 56 L30 30Z" fill="#fff"></path><path d="M50 86 L30 72 M50 86 L70 72 M14 44 L30 56 M86 44 L70 56" stroke="#fff" stroke-width="3" fill="none"></path></svg>
     <div class="kicker">Torneo de Fútbol · Liga</div>
     <h1><span class="r">BANQUITAS</span> <span class="b">DEL TEJAR</span></h1>
-    <div class="subtitle" id="season"></div>
+    <div class="subtitle" id="season">Marzo – Junio 2026</div>
   </div>
 </header>
 
 <div class="controls">
   <div class="wrap">
-    <div class="seg" id="catseg"></div>
-    <div class="tabs" id="tabs"></div>
-    <button class="admin-toggle" id="admBtn">✎ Editar</button>
+    <div class="seg" id="catseg"><button class="">Mayores</button><button class="active">Única</button></div>
+    <div class="tabs" id="tabs"><button class="active" data-tab="proximos">Próximos ★</button><button class="" data-tab="posiciones">Posiciones</button><button class="" data-tab="partidos">Partidos</button><button class="" data-tab="cronograma">Cronograma</button><button class="" data-tab="faltan">Faltan x jugar</button><button class="" data-tab="disciplina">Disciplina</button></div>
+    <button class="admin-toggle on" id="admBtn" style="">✎ Editar</button>
   </div>
 </div>
 
 <main class="wrap">
-  <section class="panel" id="admin">
+  <section class="" id="admin">
     <div class="panel-h"><h2>Modo edición</h2><span class="tag">Solo organizador</span></div>
     <div class="adm-grid">
       <div class="form">
@@ -411,10 +410,10 @@ footer{text-align:center;font-family:'Saira Condensed';color:var(--muted);font-s
           <div><label>Hora (opcional)</label><input id="m_hora" placeholder="Ej: 7:00 PM"></div>
         </div>
         <div class="row3">
-          <div><label>Local</label><select id="m_local"></select></div>
+          <div><label>Local</label><select id="m_local"><option>Los Chaparro</option><option>La Banda del Pelos</option><option>Combo de Bin</option><option>San Eusebio F.C.</option><option>Fagama</option><option>La Santa Fe</option><option>Combo de Jonathan</option><option>Tejar F.C.</option></select></div>
           <div><label>GL</label><input id="m_gl" type="number" min="0"></div>
           <div><label>GV</label><input id="m_gv" type="number" min="0"></div>
-          <div><label>Visitante</label><select id="m_visit"></select></div>
+          <div><label>Visitante</label><select id="m_visit"><option>Los Chaparro</option><option>La Banda del Pelos</option><option>Combo de Bin</option><option>San Eusebio F.C.</option><option>Fagama</option><option>La Santa Fe</option><option>Combo de Jonathan</option><option>Tejar F.C.</option></select></div>
         </div>
         <label>Nota (opcional)</label><input id="m_nota" placeholder="Walkover / Aplazado…">
         <button class="btn btn-go" onclick="addMatch()">Guardar partido</button>
@@ -423,7 +422,7 @@ footer{text-align:center;font-family:'Saira Condensed';color:var(--muted);font-s
       <div class="form">
         <h4>＋ Agregar tarjeta</h4>
         <label>Fecha</label><input id="t_fecha" type="date" value="2026-06-04">
-        <label>Equipo</label><select id="t_equipo"></select>
+        <label>Equipo</label><select id="t_equipo"><option>Los Chaparro</option><option>La Banda del Pelos</option><option>Combo de Bin</option><option>San Eusebio F.C.</option><option>Fagama</option><option>La Santa Fe</option><option>Combo de Jonathan</option><option>Tejar F.C.</option></select>
         <div class="row2">
           <div><label>Jugador</label><input id="t_jug" placeholder="Nombre"></div>
           <div><label>#</label><input id="t_dor" placeholder="Dorsal"></div>
@@ -437,7 +436,7 @@ footer{text-align:center;font-family:'Saira Condensed';color:var(--muted);font-s
 
     <div class="adm-teams-wrap">
       <h4>⚽ Inscripción de equipos</h4>
-      <div class="cat-sub">Categoría activa: <strong id="teams-cat-name">—</strong></div>
+      <div class="cat-sub">Categoría activa: <strong id="teams-cat-name">Única</strong></div>
       <div class="form">
         <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:flex-end">
           <div style="flex:1;min-width:200px">
@@ -447,7 +446,71 @@ footer{text-align:center;font-family:'Saira Condensed';color:var(--muted);font-s
           <button class="btn btn-go" style="align-self:flex-end" onclick="addTeam()">＋ Inscribir equipo</button>
         </div>
       </div>
-      <div class="teams-list" id="teams-list"></div>
+      <div class="teams-list" id="teams-list">
+    <div class="team-row">
+      <span class="team-row-name">Los Chaparro</span>
+      <div class="team-row-actions">
+        <button class="btn-sm btn-sm-ret" onclick="toggleRetiredTeam(0)">⚑ Retirar</button>
+        <button class="btn-sm btn-sm-edit" onclick="renameTeam(0)">✎ Renombrar</button>
+        <button class="btn-sm btn-sm-del" onclick="removeTeam(0)">✕ Eliminar</button>
+      </div>
+    </div>
+    <div class="team-row">
+      <span class="team-row-name">La Banda del Pelos</span>
+      <div class="team-row-actions">
+        <button class="btn-sm btn-sm-ret" onclick="toggleRetiredTeam(1)">⚑ Retirar</button>
+        <button class="btn-sm btn-sm-edit" onclick="renameTeam(1)">✎ Renombrar</button>
+        <button class="btn-sm btn-sm-del" onclick="removeTeam(1)">✕ Eliminar</button>
+      </div>
+    </div>
+    <div class="team-row">
+      <span class="team-row-name">Combo de Bin</span>
+      <div class="team-row-actions">
+        <button class="btn-sm btn-sm-ret" onclick="toggleRetiredTeam(2)">⚑ Retirar</button>
+        <button class="btn-sm btn-sm-edit" onclick="renameTeam(2)">✎ Renombrar</button>
+        <button class="btn-sm btn-sm-del" onclick="removeTeam(2)">✕ Eliminar</button>
+      </div>
+    </div>
+    <div class="team-row">
+      <span class="team-row-name">San Eusebio F.C.</span>
+      <div class="team-row-actions">
+        <button class="btn-sm btn-sm-ret" onclick="toggleRetiredTeam(3)">⚑ Retirar</button>
+        <button class="btn-sm btn-sm-edit" onclick="renameTeam(3)">✎ Renombrar</button>
+        <button class="btn-sm btn-sm-del" onclick="removeTeam(3)">✕ Eliminar</button>
+      </div>
+    </div>
+    <div class="team-row">
+      <span class="team-row-name">Fagama</span>
+      <div class="team-row-actions">
+        <button class="btn-sm btn-sm-ret" onclick="toggleRetiredTeam(4)">⚑ Retirar</button>
+        <button class="btn-sm btn-sm-edit" onclick="renameTeam(4)">✎ Renombrar</button>
+        <button class="btn-sm btn-sm-del" onclick="removeTeam(4)">✕ Eliminar</button>
+      </div>
+    </div>
+    <div class="team-row">
+      <span class="team-row-name">La Santa Fe</span>
+      <div class="team-row-actions">
+        <button class="btn-sm btn-sm-ret" onclick="toggleRetiredTeam(5)">⚑ Retirar</button>
+        <button class="btn-sm btn-sm-edit" onclick="renameTeam(5)">✎ Renombrar</button>
+        <button class="btn-sm btn-sm-del" onclick="removeTeam(5)">✕ Eliminar</button>
+      </div>
+    </div>
+    <div class="team-row">
+      <span class="team-row-name">Combo de Jonathan</span>
+      <div class="team-row-actions">
+        <button class="btn-sm btn-sm-ret" onclick="toggleRetiredTeam(6)">⚑ Retirar</button>
+        <button class="btn-sm btn-sm-edit" onclick="renameTeam(6)">✎ Renombrar</button>
+        <button class="btn-sm btn-sm-del" onclick="removeTeam(6)">✕ Eliminar</button>
+      </div>
+    </div>
+    <div class="team-row">
+      <span class="team-row-name">Tejar F.C.</span>
+      <div class="team-row-actions">
+        <button class="btn-sm btn-sm-ret" onclick="toggleRetiredTeam(7)">⚑ Retirar</button>
+        <button class="btn-sm btn-sm-edit" onclick="renameTeam(7)">✎ Renombrar</button>
+        <button class="btn-sm btn-sm-del" onclick="removeTeam(7)">✕ Eliminar</button>
+      </div>
+    </div></div>
     </div>
 
     <div class="adm-ann-wrap form">
@@ -458,12 +521,71 @@ footer{text-align:center;font-family:'Saira Condensed';color:var(--muted);font-s
         <button class="btn btn-go" onclick="addAnnouncement()">＋ Publicar anuncio</button>
         <button class="btn btn-io" onclick="previewAnn()" style="margin-top:12px">👁 Ver como jugador</button>
       </div>
-      <div class="ann-adm-list" id="ann-adm-list"></div>
+      <div class="ann-adm-list" id="ann-adm-list">
+    <div class="ann-adm-item">
+      <div class="aai-text">
+        <div class="aai-tit">Pago de Inscripción</div>
+        <div class="aai-msg">Importante:
+El pago de la inscripción es fundamental para garantizar el desarrollo de la próxima fecha. Si los equipos no realizan el pago correspondiente, la jornada no podrá llevarse a cabo.
+
+Los equipos pueden pagar la inscripción vía Nequi al número 3158624374 y deben enviar el comprobante de pago.
+
+Agradecemos su compromiso y puntualidad.</div>
+      </div>
+      <div class="aai-actions">
+        <span class="badge-on" style="cursor:pointer" onclick="toggleAnn(0)">Activo</span>
+        <button class="btn-sm btn-sm-edit" onclick="editAnn(0)">✎</button>
+        <button class="btn-sm btn-sm-del" onclick="deleteAnn(0)">✕</button>
+      </div>
+    </div>
+    <div class="ann-adm-item">
+      <div class="aai-text">
+        <div class="aai-tit">Información general</div>
+        <div class="aai-msg">Para el correcto desarrollo de la jornada, 
+el valor correspondiente al arbitraje 
+y las tarjetas debe cancelarse antes de iniciar 
+el partido.
+
+Sin este pago previo, el encuentro no 
+podrá comenzar.
+
+Cumplamos entre todos para mantener el 
+orden del torneo.</div>
+      </div>
+      <div class="aai-actions">
+        <span class="badge-on" style="cursor:pointer" onclick="toggleAnn(1)">Activo</span>
+        <button class="btn-sm btn-sm-edit" onclick="editAnn(1)">✎</button>
+        <button class="btn-sm btn-sm-del" onclick="deleteAnn(1)">✕</button>
+      </div>
+    </div>
+    <div class="ann-adm-item">
+      <div class="aai-text">
+        <div class="aai-tit">Regla de oro del torneo</div>
+        <div class="aai-msg">1)Respeta las decisiones arbitrales
+2)Expresa tu inconformidad con respeto
+3)Evita agresiones verbales o actitudes ofensivas
+Recuerda: el juego limpio empieza por 
+el comportamiento.
+
+Una decisión puede generar debate.
+El respeto nunca debe perderse.</div>
+      </div>
+      <div class="aai-actions">
+        <span class="badge-on" style="cursor:pointer" onclick="toggleAnn(2)">Activo</span>
+        <button class="btn-sm btn-sm-edit" onclick="editAnn(2)">✎</button>
+        <button class="btn-sm btn-sm-del" onclick="deleteAnn(2)">✕</button>
+      </div>
+    </div></div>
     </div>
 
     <div class="adm-teams-wrap" id="adm-elim-section">
-      <h4>🏆 Fase Eliminatoria — <span id="elim-adm-cat">—</span></h4>
-      <div id="elim-adm-body"></div>
+      <h4>🏆 Fase Eliminatoria — <span id="elim-adm-cat">Única</span></h4>
+      <div id="elim-adm-body">
+      <p style="font-family:'Saira';font-size:13px;color:var(--muted);margin-bottom:10px">
+        Se tomarán los top 8 equipos de <strong>Única</strong> y se generarán los cruces automáticamente:
+      </p>
+      <div style="background:#fff;border:2px solid var(--line);border-radius:6px;padding:10px 14px;margin-bottom:12px"><div style="font-family:'Saira Condensed';font-size:13px;padding:3px 0;color:var(--ink)">1° <strong>Los Chaparro</strong> <span style="color:var(--muted)">vs</span> 7° <strong>Combo de Jonathan</strong></div><div style="font-family:'Saira Condensed';font-size:13px;padding:3px 0;color:var(--ink)">2° <strong>La Banda del Pelos</strong> <span style="color:var(--muted)">vs</span> 6° <strong>Fagama</strong></div><div style="font-family:'Saira Condensed';font-size:13px;padding:3px 0;color:var(--ink)">3° <strong>San Eusebio F.C.</strong> <span style="color:var(--muted)">vs</span> 5° <strong>Tejar F.C.</strong></div><div style="font-family:'Saira Condensed';font-size:13px;padding:3px 0;color:var(--ink)">4° <strong>Combo de Bin</strong> <span style="color:var(--muted)">vs</span> 4° <strong>La Santa Fe</strong></div></div>
+      <button class="btn btn-go" onclick="activarEliminatoria()">⚡ Activar fase eliminatoria</button></div>
     </div>
 
     <div class="adm-nueva-liga">
@@ -507,7 +629,33 @@ footer{text-align:center;font-family:'Saira Condensed';color:var(--muted);font-s
 <div id="ann-overlay" class="ann-overlay">
   <div class="ann-modal">
     <div class="ann-head"><span class="ann-ico">📢</span><h2>Anuncios</h2></div>
-    <div class="ann-body" id="ann-body"></div>
+    <div class="ann-body" id="ann-body">
+    <div class="ann-item">
+      <div class="a-tit">Información general</div>
+      <div class="a-txt">Para el correcto desarrollo de la jornada, 
+el valor correspondiente al arbitraje 
+y las tarjetas debe cancelarse antes de iniciar 
+el partido.
+
+Sin este pago previo, el encuentro no 
+podrá comenzar.
+
+Cumplamos entre todos para mantener el 
+orden del torneo.</div>
+      <div class="a-fecha">📅 2026-06-12</div>
+    </div>
+    <div class="ann-item">
+      <div class="a-tit">Regla de oro del torneo</div>
+      <div class="a-txt">1)Respeta las decisiones arbitrales
+2)Expresa tu inconformidad con respeto
+3)Evita agresiones verbales o actitudes ofensivas
+Recuerda: el juego limpio empieza por 
+el comportamiento.
+
+Una decisión puede generar debate.
+El respeto nunca debe perderse.</div>
+      <div class="a-fecha">📅 2026-06-12</div>
+    </div></div>
     <div class="ann-foot">
       <button class="btn btn-go btn-ann-close" onclick="closeAnn()">Entendido ✓</button>
     </div>
@@ -517,14 +665,18 @@ footer{text-align:center;font-family:'Saira Condensed';color:var(--muted);font-s
 <div id="modal-overlay" class="modal-overlay" onclick="closeModal()">
   <div class="modal" onclick="event.stopPropagation()">
     <div class="modal-h">
-      <h3 id="modal-title">Editar</h3>
+      <h3 id="modal-title">Acceso administrador</h3>
       <button class="btn-modal-close" onclick="closeModal()">✕</button>
     </div>
-    <div class="modal-body form" id="modal-body"></div>
+    <div class="modal-body form" id="modal-body">
+      <label>Contraseña</label>
+      <input id="adm_pwd" type="password" placeholder="❌ Contraseña incorrecta" autocomplete="off" onkeydown="if(event.key==='Enter')checkAdminPwd()">
+      <button class="btn btn-go" style="margin-top:14px;width:100%" onclick="checkAdminPwd()">Entrar</button>
+    </div>
   </div>
 </div>
 
-<script id="tournament-data" type="application/json">{"meta": {"nombre": "Banquitas del Tejar", "temporada": "Marzo – Junio 2026", "corte": "2026-04-17", "multas": {"amarilla": 5000, "azul": 7000, "roja": 10000}}, "categorias": {"Mayores": {"equipos": ["Unión 32", "Combo B y H", "Z-4", "Vieja Guardia", "La 31 F.C.", "Rueda la Pola", "Districarnes", "Combo de Mao", "Terra Mítica"], "retirados": ["Terra Mítica"], "pjFijo": {"Terra Mítica": 9}, "partidos": [{"fecha": "28 Mar", "local": "Vieja Guardia", "gl": 2, "gv": 0, "visitante": "Rueda la Pola", "nota": ""}, {"fecha": "11 Abr", "local": "Unión 32", "gl": 1, "gv": 0, "visitante": "Rueda la Pola", "nota": ""}, {"fecha": "11 Abr", "local": "Z-4", "gl": 0, "gv": 0, "visitante": "Vieja Guardia", "nota": ""}, {"fecha": "11 Abr", "local": "La 31 F.C.", "gl": 0, "gv": 1, "visitante": "Combo B y H", "nota": ""}, {"fecha": "17 Abr", "local": "Combo de Mao", "gl": 3, "gv": 0, "visitante": "Terra Mítica", "nota": "Walkover"}, {"fecha": "17 Abr", "local": "Z-4", "gl": 0, "gv": 0, "visitante": "La 31 F.C.", "nota": ""}, {"fecha": "18 Abr", "local": "Combo B y H", "gl": 2, "gv": 0, "visitante": "Rueda la Pola", "nota": ""}, {"fecha": "24 Abr", "local": "Unión 32", "gl": 2, "gv": 0, "visitante": "La 31 F.C.", "nota": ""}, {"fecha": "25 Abr", "local": "Combo de Mao", "gl": 2, "gv": 0, "visitante": "Vieja Guardia", "nota": ""}, {"fecha": "25 Abr", "local": "Combo B y H", "gl": 3, "gv": 0, "visitante": "Terra Mítica", "nota": ""}, {"fecha": "25 Abr", "local": "Z-4", "gl": 0, "gv": 0, "visitante": "Unión 32", "nota": ""}, {"fecha": "1 May", "local": "Combo de Mao", "gl": 0, "gv": 1, "visitante": "Z-4", "nota": ""}, {"fecha": "2 May", "local": "Combo B y H", "gl": 3, "gv": 0, "visitante": "Vieja Guardia", "nota": "Walkover"}, {"fecha": "2 May", "local": "Rueda la Pola", "gl": 1, "gv": 0, "visitante": "La 31 F.C.", "nota": ""}, {"fecha": "2 May", "local": "Unión 32", "gl": 3, "gv": 0, "visitante": "Terra Mítica", "nota": "Walkover"}, {"fecha": "8 May", "local": "La 31 F.C.", "gl": 4, "gv": 0, "visitante": "Districarnes", "nota": ""}, {"fecha": "9 May", "local": "Combo de Mao", "gl": null, "gv": null, "visitante": "Combo B y H", "nota": "Aplazado"}, {"fecha": "9 May", "local": "Unión 32", "gl": 1, "gv": 0, "visitante": "Vieja Guardia", "nota": ""}, {"fecha": "9 May", "local": "Z-4", "gl": 1, "gv": 1, "visitante": "Rueda la Pola", "nota": ""}, {"fecha": "23 May", "local": "Unión 32", "gl": 2, "gv": 0, "visitante": "Combo de Mao", "nota": "Ajustado"}, {"fecha": "23 May", "local": "La 31 F.C.", "gl": 0, "gv": 1, "visitante": "Vieja Guardia", "nota": ""}, {"fecha": "23 May", "local": "Z-4", "gl": 0, "gv": 1, "visitante": "Combo B y H", "nota": ""}, {"fecha": "29 May", "local": "Rueda la Pola", "gl": 0, "gv": 4, "visitante": "Districarnes", "nota": "Goleada técnica"}, {"fecha": "Retiro", "local": "Z-4", "gl": 3, "gv": 0, "visitante": "Terra Mítica", "nota": "Walkover retiro"}, {"fecha": "Retiro", "local": "Vieja Guardia", "gl": 3, "gv": 0, "visitante": "Terra Mítica", "nota": "Walkover retiro"}, {"fecha": "Retiro", "local": "La 31 F.C.", "gl": 3, "gv": 0, "visitante": "Terra Mítica", "nota": "Walkover retiro"}, {"fecha": "Retiro", "local": "Rueda la Pola", "gl": 3, "gv": 0, "visitante": "Terra Mítica", "nota": "Walkover retiro"}, {"fecha": "Retiro", "local": "Districarnes", "gl": 3, "gv": 0, "visitante": "Terra Mítica", "nota": "Walkover retiro"}], "tarjetas": [{"fecha": "2026-04-11", "equipo": "La 31 F.C.", "jugador": "Diego Yesid Caicedo", "dorsal": "7", "tipo": "Roja", "exp": false, "nota": ""}, {"fecha": "2026-05-23", "equipo": "La 31 F.C.", "jugador": "Andres Perez", "dorsal": "15", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-09", "equipo": "Z-4", "jugador": "Camilo Murcia", "dorsal": "9", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-09", "equipo": "Z-4", "jugador": "Camilo Murcia", "dorsal": "9", "tipo": "Roja", "exp": false, "nota": ""}, {"fecha": "2026-05-01", "equipo": "Z-4", "jugador": "Carlos Fernandez", "dorsal": "8", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-01", "equipo": "Z-4", "jugador": "Daniel Bernal", "dorsal": "10", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-23", "equipo": "Z-4", "jugador": "Daniel Bernal", "dorsal": "10", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-01", "equipo": "Z-4", "jugador": "Daniel Bernal", "dorsal": "10", "tipo": "Azul", "exp": false, "nota": ""}, {"fecha": "2026-05-01", "equipo": "Z-4", "jugador": "Daniel Bernal", "dorsal": "10", "tipo": "Roja", "exp": false, "nota": ""}, {"fecha": "2026-05-01", "equipo": "Combo de Mao", "jugador": "Mauricio Reina", "dorsal": "9", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-23", "equipo": "Combo de Mao", "jugador": "Mauricio Reina", "dorsal": "9", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-09", "equipo": "Rueda la Pola", "jugador": "Ricardo Arana", "dorsal": "18", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-29", "equipo": "Rueda la Pola", "jugador": "Diego Trujillo", "dorsal": "9", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-04-25", "equipo": "Unión 32", "jugador": "Mai Pedraza", "dorsal": "7", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-09", "equipo": "Unión 32", "jugador": "Gustavo Gonzales", "dorsal": "18", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-23", "equipo": "Unión 32", "jugador": "Freddy Marroquin", "dorsal": "6", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-23", "equipo": "Combo B y H", "jugador": "Gilberto Jurado", "dorsal": "7", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-29", "equipo": "Districarnes", "jugador": "Javier Perez", "dorsal": "16", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-04-25", "equipo": "Vieja Guardia", "jugador": "Horacio", "dorsal": "13", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-04-25", "equipo": "Vieja Guardia", "jugador": "Fabian", "dorsal": "7", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-04-25", "equipo": "Vieja Guardia", "jugador": "Cristian", "dorsal": "5", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-23", "equipo": "Vieja Guardia", "jugador": "Juan Lopez", "dorsal": "7", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-23", "equipo": "Vieja Guardia", "jugador": "Juan Lopez", "dorsal": "7", "tipo": "Roja", "exp": false, "nota": ""}]}, "Única": {"equipos": ["Los Chaparro", "La Banda del Pelos", "Combo de Bin", "San Eusebio F.C.", "Fagama", "La Santa Fe", "Combo de Jonathan", "Tejar F.C."], "retirados": [], "pjFijo": {}, "partidos": [{"fecha": "11 Abr", "local": "Los Chaparro", "gl": 2, "gv": 0, "visitante": "Combo de Bin", "nota": ""}, {"fecha": "11 Abr", "local": "La Banda del Pelos", "gl": 2, "gv": 2, "visitante": "Combo de Jonathan", "nota": ""}, {"fecha": "18 Abr", "local": "Los Chaparro", "gl": 3, "gv": 0, "visitante": "Combo de Jonathan", "nota": ""}, {"fecha": "18 Abr", "local": "Combo de Bin", "gl": 0, "gv": 1, "visitante": "La Banda del Pelos", "nota": ""}, {"fecha": "24 Abr", "local": "Fagama", "gl": 1, "gv": 1, "visitante": "La Santa Fe", "nota": ""}, {"fecha": "25 Abr", "local": "Combo de Bin", "gl": 2, "gv": 0, "visitante": "Combo de Jonathan", "nota": ""}, {"fecha": "25 Abr", "local": "Los Chaparro", "gl": 1, "gv": 1, "visitante": "La Banda del Pelos", "nota": ""}, {"fecha": "1 May", "local": "Los Chaparro", "gl": 2, "gv": 0, "visitante": "La Santa Fe", "nota": ""}, {"fecha": "2 May", "local": "Fagama", "gl": 0, "gv": 4, "visitante": "Combo de Bin", "nota": "Goleada técnica"}, {"fecha": "8 May", "local": "Fagama", "gl": 1, "gv": 1, "visitante": "Tejar F.C.", "nota": ""}, {"fecha": "9 May", "local": "San Eusebio F.C.", "gl": 3, "gv": 1, "visitante": "Combo de Jonathan", "nota": ""}, {"fecha": "9 May", "local": "La Banda del Pelos", "gl": 1, "gv": 0, "visitante": "La Santa Fe", "nota": ""}, {"fecha": "22 May", "local": "Los Chaparro", "gl": 0, "gv": 0, "visitante": "San Eusebio F.C.", "nota": ""}, {"fecha": "22 May", "local": "La Banda del Pelos", "gl": 2, "gv": 0, "visitante": "Fagama", "nota": ""}, {"fecha": "22 May", "local": "La Santa Fe", "gl": null, "gv": null, "visitante": "Combo de Jonathan", "nota": "Aplazado"}, {"fecha": "23 May", "local": "Combo de Bin", "gl": 1, "gv": 0, "visitante": "Tejar F.C.", "nota": ""}, {"fecha": "29 May", "local": "Fagama", "gl": 0, "gv": 2, "visitante": "Los Chaparro", "nota": ""}, {"fecha": "29 May", "local": "Tejar F.C.", "gl": 0, "gv": 2, "visitante": "San Eusebio F.C.", "nota": ""}], "tarjetas": [{"fecha": "2026-04-18", "equipo": "Combo de Bin", "jugador": "Carlos Sanchez", "dorsal": "23", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-04-18", "equipo": "Combo de Bin", "jugador": "Edwin Quiroga", "dorsal": "8", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-04-25", "equipo": "Combo de Bin", "jugador": "Edwin Quiroga", "dorsal": "8", "tipo": "Amarilla", "exp": false, "nota": "'+2': por confirmar"}, {"fecha": "2026-04-25", "equipo": "Combo de Jonathan", "jugador": "Cristian Monroy", "dorsal": "11", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-04-18", "equipo": "Combo de Jonathan", "jugador": "Jonathan Ortiz", "dorsal": "1", "tipo": "Roja", "exp": false, "nota": ""}, {"fecha": "2026-05-09", "equipo": "Combo de Jonathan", "jugador": "Jefferson", "dorsal": "77", "tipo": "Amarilla", "exp": false, "nota": "'Amarillas': por confirmar"}, {"fecha": "2026-05-22", "equipo": "La Banda del Pelos", "jugador": "Yair Araujo", "dorsal": "10", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-22", "equipo": "La Banda del Pelos", "jugador": "Harrison Cardenas", "dorsal": "7", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-04-25", "equipo": "Los Chaparro", "jugador": "Harrison Cardenas", "dorsal": "7", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-04-25", "equipo": "Los Chaparro", "jugador": "Harrison Cardenas", "dorsal": "7", "tipo": "Roja", "exp": false, "nota": ""}, {"fecha": "2026-05-01", "equipo": "Los Chaparro", "jugador": "Andres Libano", "dorsal": "4", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-01", "equipo": "Los Chaparro", "jugador": "Jonathan Chaparro", "dorsal": "8", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-04-18", "equipo": "Los Chaparro", "jugador": "Daniel Angel", "dorsal": "13", "tipo": "Roja", "exp": false, "nota": ""}, {"fecha": "2026-05-09", "equipo": "La Santa Fe", "jugador": "Camilo Espinosa", "dorsal": "19", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-09", "equipo": "La Santa Fe", "jugador": "Camilo Espinosa", "dorsal": "19", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-09", "equipo": "La Santa Fe", "jugador": "Jefferson Morales", "dorsal": "7", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-09", "equipo": "La Santa Fe", "jugador": "Brayan Gomez", "dorsal": "23", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-22", "equipo": "Fagama", "jugador": "Edgardo", "dorsal": "17", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-22", "equipo": "Fagama", "jugador": "Edgardo", "dorsal": "17", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-22", "equipo": "Fagama", "jugador": "Edgardo", "dorsal": "17", "tipo": "Roja", "exp": false, "nota": ""}, {"fecha": "2026-05-29", "equipo": "Fagama", "jugador": "Leonardo Pandilla", "dorsal": "7", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-29", "equipo": "Tejar F.C.", "jugador": "Fabian Contreras", "dorsal": "1", "tipo": "Amarilla", "exp": false, "nota": ""}, {"fecha": "2026-05-29", "equipo": "Tejar F.C.", "jugador": "Diego P.", "dorsal": "7", "tipo": "Amarilla", "exp": false, "nota": ""}]}}}</script>
+<script id="tournament-data" type="application/json">{"meta":{"nombre":"Banquitas del Tejar","temporada":"Marzo – Junio 2026","corte":"2026-04-17","multas":{"amarilla":5000,"azul":7000,"roja":10000}},"categorias":{"Mayores":{"equipos":["Unión 32","Combo B y H","Z-4","Vieja Guardia","La 31 F.C.","Rueda la Pola","Districarnes","Combo de Mao","Terra Mítica"],"retirados":["Terra Mítica"],"pjFijo":{"Terra Mítica":9},"partidos":[{"fecha":"28 Mar","local":"Vieja Guardia","gl":2,"gv":0,"visitante":"Rueda la Pola","nota":""},{"fecha":"11 Abr","local":"Unión 32","gl":1,"gv":0,"visitante":"Rueda la Pola","nota":""},{"fecha":"11 Abr","local":"Z-4","gl":0,"gv":0,"visitante":"Vieja Guardia","nota":""},{"fecha":"11 Abr","local":"La 31 F.C.","gl":0,"gv":1,"visitante":"Combo B y H","nota":""},{"fecha":"17 Abr","local":"Combo de Mao","gl":3,"gv":0,"visitante":"Terra Mítica","nota":"Walkover"},{"fecha":"17 Abr","local":"Z-4","gl":0,"gv":0,"visitante":"La 31 F.C.","nota":""},{"fecha":"18 Abr","local":"Combo B y H","gl":2,"gv":0,"visitante":"Rueda la Pola","nota":""},{"fecha":"24 Abr","local":"Unión 32","gl":2,"gv":0,"visitante":"La 31 F.C.","nota":""},{"fecha":"25 Abr","local":"Combo de Mao","gl":2,"gv":0,"visitante":"Vieja Guardia","nota":""},{"fecha":"25 Abr","local":"Combo B y H","gl":3,"gv":0,"visitante":"Terra Mítica","nota":""},{"fecha":"25 Abr","local":"Z-4","gl":0,"gv":0,"visitante":"Unión 32","nota":""},{"fecha":"1 May","local":"Combo de Mao","gl":0,"gv":1,"visitante":"Z-4","nota":""},{"fecha":"2 May","local":"Combo B y H","gl":3,"gv":0,"visitante":"Vieja Guardia","nota":"Walkover"},{"fecha":"2 May","local":"Rueda la Pola","gl":1,"gv":0,"visitante":"La 31 F.C.","nota":""},{"fecha":"2 May","local":"Unión 32","gl":3,"gv":0,"visitante":"Terra Mítica","nota":"Walkover"},{"fecha":"8 May","local":"La 31 F.C.","gl":4,"gv":0,"visitante":"Districarnes","nota":""},{"fecha":"9 May","local":"Combo de Mao","gl":null,"gv":null,"visitante":"Combo B y H","nota":"Aplazado","reprogramado":true},{"fecha":"9 May","local":"Unión 32","gl":1,"gv":0,"visitante":"Vieja Guardia","nota":""},{"fecha":"9 May","local":"Z-4","gl":1,"gv":1,"visitante":"Rueda la Pola","nota":""},{"fecha":"23 May","local":"Unión 32","gl":2,"gv":0,"visitante":"Combo de Mao","nota":"Ajustado"},{"fecha":"23 May","local":"La 31 F.C.","gl":0,"gv":1,"visitante":"Vieja Guardia","nota":""},{"fecha":"23 May","local":"Z-4","gl":0,"gv":1,"visitante":"Combo B y H","nota":""},{"fecha":"29 May","local":"Rueda la Pola","gl":0,"gv":4,"visitante":"Districarnes","nota":"Goleada técnica"},{"fecha":"Retiro","local":"Z-4","gl":3,"gv":0,"visitante":"Terra Mítica","nota":"Walkover retiro"},{"fecha":"Retiro","local":"Vieja Guardia","gl":3,"gv":0,"visitante":"Terra Mítica","nota":"Walkover retiro"},{"fecha":"Retiro","local":"La 31 F.C.","gl":3,"gv":0,"visitante":"Terra Mítica","nota":"Walkover retiro"},{"fecha":"Retiro","local":"Rueda la Pola","gl":3,"gv":0,"visitante":"Terra Mítica","nota":"Walkover retiro"},{"fecha":"Retiro","local":"Districarnes","gl":3,"gv":0,"visitante":"Terra Mítica","nota":"Walkover retiro"},{"fecha":"6 Jun","local":"Rueda la Pola","visitante":"Combo de Mao","gl":0,"gv":3,"nota":""},{"fecha":"6 Jun","local":"Districarnes","visitante":"Z-4","gl":0,"gv":2,"nota":""},{"fecha":"6 Jun","local":"Combo B y H","visitante":"Unión 32","gl":0,"gv":2,"nota":""},{"fecha":"12 Jun","local":"Combo de Mao","visitante":"Districarnes","gl":null,"gv":null,"nota":"","hora":"7:00 PM"},{"fecha":"13 Jun","local":"Combo de Mao","visitante":"La 31 F.C.","gl":null,"gv":null,"nota":"","hora":"5:00 PM"},{"fecha":"13 Jun","local":"Vieja Guardia","visitante":"Districarnes","gl":null,"gv":null,"nota":"","hora":"8:00 PM"}],"tarjetas":[{"fecha":"2026-04-11","equipo":"La 31 F.C.","jugador":"Diego Yesid Caicedo","dorsal":"7","tipo":"Roja","exp":false,"nota":""},{"fecha":"2026-05-23","equipo":"La 31 F.C.","jugador":"Andres Perez","dorsal":"15","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-05-09","equipo":"Rueda la Pola","jugador":"Ricardo Arana","dorsal":"18","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-05-29","equipo":"Rueda la Pola","jugador":"Diego Trujillo","dorsal":"9","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-04-25","equipo":"Unión 32","jugador":"Mai Pedraza","dorsal":"7","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-05-09","equipo":"Unión 32","jugador":"Gustavo Gonzales","dorsal":"18","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-05-23","equipo":"Unión 32","jugador":"Freddy Marroquin","dorsal":"6","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-05-23","equipo":"Combo B y H","jugador":"Gilberto Jurado","dorsal":"7","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-05-29","equipo":"Districarnes","jugador":"Javier Perez","dorsal":"16","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-04-25","equipo":"Vieja Guardia","jugador":"Horacio","dorsal":"13","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-04-25","equipo":"Vieja Guardia","jugador":"Fabian","dorsal":"7","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-04-25","equipo":"Vieja Guardia","jugador":"Cristian","dorsal":"5","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-05-23","equipo":"Vieja Guardia","jugador":"Juan Lopez","dorsal":"7","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-05-23","equipo":"Vieja Guardia","jugador":"Juan Lopez","dorsal":"7","tipo":"Roja","exp":false,"nota":""},{"fecha":"2026-06-06","equipo":"Rueda la Pola","jugador":"Javier Perez","dorsal":"16","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-06-06","equipo":"Rueda la Pola","jugador":"Maicol Gomez","dorsal":"6","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-06-06","equipo":"Rueda la Pola","jugador":"Fabian Contreras","dorsal":"9","tipo":"Roja","exp":false,"nota":""},{"fecha":"2026-06-06","equipo":"Combo de Mao","jugador":"Adolfo Mogollon","dorsal":"10","tipo":"Roja","exp":false,"nota":""},{"fecha":"2026-06-06","equipo":"Districarnes","jugador":"German Garzon","dorsal":"10","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-06-06","equipo":"Z-4","jugador":"Daniel Bernal","dorsal":"10","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-06-06","equipo":"Combo B y H","jugador":"Beto Mora","dorsal":"21","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-06-06","equipo":"Combo B y H","jugador":"Héctor Rodríguez","dorsal":"15","tipo":"Amarilla","exp":false,"nota":""}]},"Única":{"equipos":["Los Chaparro","La Banda del Pelos","Combo de Bin","San Eusebio F.C.","Fagama","La Santa Fe","Combo de Jonathan","Tejar F.C."],"retirados":[],"pjFijo":{},"partidos":[{"fecha":"11 Abr","local":"Los Chaparro","gl":2,"gv":0,"visitante":"Combo de Bin","nota":""},{"fecha":"11 Abr","local":"La Banda del Pelos","gl":2,"gv":2,"visitante":"Combo de Jonathan","nota":""},{"fecha":"18 Abr","local":"Los Chaparro","gl":3,"gv":0,"visitante":"Combo de Jonathan","nota":""},{"fecha":"18 Abr","local":"Combo de Bin","gl":0,"gv":1,"visitante":"La Banda del Pelos","nota":""},{"fecha":"24 Abr","local":"Fagama","gl":1,"gv":1,"visitante":"La Santa Fe","nota":""},{"fecha":"25 Abr","local":"Combo de Bin","gl":2,"gv":0,"visitante":"Combo de Jonathan","nota":""},{"fecha":"25 Abr","local":"Los Chaparro","gl":1,"gv":1,"visitante":"La Banda del Pelos","nota":""},{"fecha":"1 May","local":"Los Chaparro","gl":2,"gv":0,"visitante":"La Santa Fe","nota":""},{"fecha":"2 May","local":"Fagama","gl":0,"gv":4,"visitante":"Combo de Bin","nota":"Goleada técnica"},{"fecha":"8 May","local":"Fagama","gl":1,"gv":1,"visitante":"Tejar F.C.","nota":""},{"fecha":"9 May","local":"San Eusebio F.C.","gl":3,"gv":1,"visitante":"Combo de Jonathan","nota":""},{"fecha":"9 May","local":"La Banda del Pelos","gl":1,"gv":0,"visitante":"La Santa Fe","nota":""},{"fecha":"22 May","local":"Los Chaparro","gl":0,"gv":0,"visitante":"San Eusebio F.C.","nota":""},{"fecha":"22 May","local":"La Banda del Pelos","gl":2,"gv":0,"visitante":"Fagama","nota":""},{"fecha":"5 Jun","local":"La Santa Fe","visitante":"Combo de Jonathan","gl":3,"gv":0,"nota":"Aplazado"},{"fecha":"23 May","local":"Combo de Bin","gl":1,"gv":0,"visitante":"Tejar F.C.","nota":""},{"fecha":"29 May","local":"Fagama","gl":0,"gv":2,"visitante":"Los Chaparro","nota":""},{"fecha":"29 May","local":"Tejar F.C.","gl":0,"gv":2,"visitante":"San Eusebio F.C.","nota":""},{"fecha":"5 Jun","local":"San Eusebio F.C.","visitante":"Fagama","gl":1,"gv":0,"nota":""},{"fecha":"5 Jun","local":"Los Chaparro","visitante":"Tejar F.C.","gl":3,"gv":0,"nota":""},{"fecha":"6 Jun","local":"San Eusebio F.C.","visitante":"La Banda del Pelos","gl":0,"gv":1,"nota":""},{"fecha":"6 Jun","local":"La Santa Fe","visitante":"Tejar F.C.","gl":1,"gv":2,"nota":""},{"fecha":"12 Jun","local":"Fagama","visitante":"Combo de Jonathan","gl":null,"gv":null,"nota":"","hora":"8:00 PM"},{"fecha":"13 Jun","local":"Combo de Bin","visitante":"San Eusebio F.C.","gl":null,"gv":null,"nota":"","hora":"6:00 PM"},{"fecha":"13 Jun","local":"La Banda del Pelos","visitante":"Tejar F.C.","gl":null,"gv":null,"nota":"","hora":"7:00 PM"}],"tarjetas":[{"fecha":"2026-04-18","equipo":"Combo de Bin","jugador":"Carlos Sanchez","dorsal":"23","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-04-18","equipo":"Combo de Bin","jugador":"Edwin Quiroga","dorsal":"8","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-04-25","equipo":"Combo de Bin","jugador":"Edwin Quiroga","dorsal":"8","tipo":"Amarilla","exp":false,"nota":"'+2': por confirmar"},{"fecha":"2026-04-25","equipo":"Combo de Jonathan","jugador":"Cristian Monroy","dorsal":"11","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-04-18","equipo":"Combo de Jonathan","jugador":"Jonathan Ortiz","dorsal":"1","tipo":"Roja","exp":false,"nota":""},{"fecha":"2026-05-09","equipo":"Combo de Jonathan","jugador":"Jefferson","dorsal":"77","tipo":"Amarilla","exp":false,"nota":"'Amarillas': por confirmar"},{"fecha":"2026-05-09","equipo":"La Santa Fe","jugador":"Camilo Espinosa","dorsal":"19","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-05-09","equipo":"La Santa Fe","jugador":"Camilo Espinosa","dorsal":"19","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-05-09","equipo":"La Santa Fe","jugador":"Jefferson Morales","dorsal":"7","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-05-09","equipo":"La Santa Fe","jugador":"Brayan Gomez","dorsal":"23","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-05-22","equipo":"Fagama","jugador":"Edgardo","dorsal":"17","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-05-22","equipo":"Fagama","jugador":"Edgardo","dorsal":"17","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-05-22","equipo":"Fagama","jugador":"Edgardo","dorsal":"17","tipo":"Roja","exp":false,"nota":""},{"fecha":"2026-05-29","equipo":"Fagama","jugador":"Leonardo Pandilla","dorsal":"7","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-05-29","equipo":"Tejar F.C.","jugador":"Fabian Contreras","dorsal":"1","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-05-29","equipo":"Tejar F.C.","jugador":"Diego P.","dorsal":"7","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-06-05","equipo":"La Santa Fe","jugador":"Diego Pardo","dorsal":"2","tipo":"Azul","exp":false,"nota":""},{"fecha":"2026-06-05","equipo":"Combo de Jonathan","jugador":"Jefferson Ortiz","dorsal":"11","tipo":"Azul","exp":false,"nota":""},{"fecha":"2026-06-05","equipo":"Combo de Jonathan","jugador":"Cristian Mendez","dorsal":"10","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-06-06","equipo":"San Eusebio F.C.","jugador":"Sebastián Moton","dorsal":"14","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-06-06","equipo":"San Eusebio F.C.","jugador":"David C.","dorsal":"11","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-06-06","equipo":"San Eusebio F.C.","jugador":"Hugo Jiménez","dorsal":"89","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-06-06","equipo":"La Banda del Pelos","jugador":"Jorge Rodríguez","dorsal":"6","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-06-06","equipo":"La Banda del Pelos","jugador":"Cristian Tobo","dorsal":"8","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-06-06","equipo":"La Banda del Pelos","jugador":"Carlos Ruiz","dorsal":"7","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-06-06","equipo":"La Santa Fe","jugador":"Brian López","dorsal":"23","tipo":"Amarilla","exp":false,"nota":""},{"fecha":"2026-06-06","equipo":"La Santa Fe","jugador":"Camilo","dorsal":"22","tipo":"Roja","exp":false,"nota":""}]}},"anuncios":[{"titulo":"Pago de Inscripción","texto":"Importante:\nEl pago de la inscripción es fundamental para garantizar el desarrollo de la próxima fecha. Si los equipos no realizan el pago correspondiente, la jornada no podrá llevarse a cabo.\n\nLos equipos pueden pagar la inscripción vía Nequi al número 3158624374 y deben enviar el comprobante de pago.\n\nAgradecemos su compromiso y puntualidad.","fecha":"2026-06-12","activo":true},{"titulo":"Información general","texto":"Para el correcto desarrollo de la jornada, \nel valor correspondiente al arbitraje \ny las tarjetas debe cancelarse antes de iniciar \nel partido.\n\nSin este pago previo, el encuentro no \npodrá comenzar.\n\nCumplamos entre todos para mantener el \norden del torneo.","fecha":"2026-06-12","activo":true},{"titulo":"Regla de oro del torneo","texto":"1)Respeta las decisiones arbitrales\n2)Expresa tu inconformidad con respeto\n3)Evita agresiones verbales o actitudes ofensivas\nRecuerda: el juego limpio empieza por \nel comportamiento.\n\nUna decisión puede generar debate.\nEl respeto nunca debe perderse.","fecha":"2026-06-12","activo":true}]}</script>
 <script>
 // ===== LÓGICA DE CÁLCULO (misma que la hoja de cálculo) =====
 function computeStandings(DATA, cat){
@@ -613,7 +765,10 @@ if (typeof module !== 'undefined') module.exports = {computeStandings, computePe
 const ADMIN_PWD = 'BANQUITAS2026';
 // ───────────────────────────────────────────────────────────────────
 
-let DATA, CAT = 'Mayores', TAB = 'proximos', ADM = false;
+let DATA = JSON.parse(document.getElementById('tournament-data').textContent);
+let CAT = 'Mayores';
+let TAB = 'proximos';
+let ADM = false;
 const TABS = [['proximos','Próximos ★'],['posiciones','Posiciones'],['partidos','Partidos'],['cronograma','Cronograma'],['faltan','Faltan x jugar'],['disciplina','Disciplina']];
 const fmt = n => '$' + n.toLocaleString('es-CO');
 const esc = s => String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -889,7 +1044,7 @@ function download(content, name, type){
   const blob=new Blob([content],{type}); const u=URL.createObjectURL(blob);
   const a=document.createElement('a'); a.href=u; a.download=name; a.click(); URL.revokeObjectURL(u);
 }
-function exportJSON(){ download(JSON.stringify(DATA,null,2),'data.json','application/json'); }
+function exportJSON(){ download(JSON.stringify(DATA,null,2),'banquitas_datos.json','application/json'); }
 function exportHTML(){
   document.getElementById('tournament-data').textContent=JSON.stringify(DATA);
   const view=document.getElementById('view'), keep=view.innerHTML; view.innerHTML='';
@@ -1697,18 +1852,8 @@ function crearNuevaLiga(){
   alert(`¡Liga "${nombre}" creada con éxito! 🏆\n\nRecuerda descargar el HTML o JSON para guardar los cambios.`);
 }
 
-async function initApp(){
-  try{
-    const r=await fetch('data.json');
-    if(!r.ok) throw new Error();
-    DATA=await r.json();
-  } catch {
-    DATA=JSON.parse(document.getElementById('tournament-data').textContent);
-  }
-  if(!DATA.categorias[CAT]) CAT=Object.keys(DATA.categorias)[0];
-  buildControls(); render(); showAnn();
-}
-initApp();
+buildControls(); render(); showAnn();
 </script>
-</body>
-</html>
+
+
+</body></html>
