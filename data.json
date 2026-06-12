@@ -1,0 +1,841 @@
+﻿{
+    "meta":  {
+                 "nombre":  "Banquitas del Tejar",
+                 "temporada":  "Marzo – Junio 2026",
+                 "corte":  "2026-04-17",
+                 "multas":  {
+                                "amarilla":  5000,
+                                "azul":  7000,
+                                "roja":  10000
+                            }
+             },
+    "categorias":  {
+                       "Mayores":  {
+                                       "equipos":  [
+                                                       "Unión 32",
+                                                       "Combo B y H",
+                                                       "Z-4",
+                                                       "Vieja Guardia",
+                                                       "La 31 F.C.",
+                                                       "Rueda la Pola",
+                                                       "Districarnes",
+                                                       "Combo de Mao",
+                                                       "Terra Mítica"
+                                                   ],
+                                       "retirados":  [
+                                                         "Terra Mítica"
+                                                     ],
+                                       "pjFijo":  {
+                                                      "Terra Mítica":  9
+                                                  },
+                                       "partidos":  [
+                                                        {
+                                                            "fecha":  "28 Mar",
+                                                            "local":  "Vieja Guardia",
+                                                            "gl":  2,
+                                                            "gv":  0,
+                                                            "visitante":  "Rueda la Pola",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "11 Abr",
+                                                            "local":  "Unión 32",
+                                                            "gl":  1,
+                                                            "gv":  0,
+                                                            "visitante":  "Rueda la Pola",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "11 Abr",
+                                                            "local":  "Z-4",
+                                                            "gl":  0,
+                                                            "gv":  0,
+                                                            "visitante":  "Vieja Guardia",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "11 Abr",
+                                                            "local":  "La 31 F.C.",
+                                                            "gl":  0,
+                                                            "gv":  1,
+                                                            "visitante":  "Combo B y H",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "17 Abr",
+                                                            "local":  "Combo de Mao",
+                                                            "gl":  3,
+                                                            "gv":  0,
+                                                            "visitante":  "Terra Mítica",
+                                                            "nota":  "Walkover"
+                                                        },
+                                                        {
+                                                            "fecha":  "17 Abr",
+                                                            "local":  "Z-4",
+                                                            "gl":  0,
+                                                            "gv":  0,
+                                                            "visitante":  "La 31 F.C.",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "18 Abr",
+                                                            "local":  "Combo B y H",
+                                                            "gl":  2,
+                                                            "gv":  0,
+                                                            "visitante":  "Rueda la Pola",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "24 Abr",
+                                                            "local":  "Unión 32",
+                                                            "gl":  2,
+                                                            "gv":  0,
+                                                            "visitante":  "La 31 F.C.",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "25 Abr",
+                                                            "local":  "Combo de Mao",
+                                                            "gl":  2,
+                                                            "gv":  0,
+                                                            "visitante":  "Vieja Guardia",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "25 Abr",
+                                                            "local":  "Combo B y H",
+                                                            "gl":  3,
+                                                            "gv":  0,
+                                                            "visitante":  "Terra Mítica",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "25 Abr",
+                                                            "local":  "Z-4",
+                                                            "gl":  0,
+                                                            "gv":  0,
+                                                            "visitante":  "Unión 32",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "1 May",
+                                                            "local":  "Combo de Mao",
+                                                            "gl":  0,
+                                                            "gv":  1,
+                                                            "visitante":  "Z-4",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2 May",
+                                                            "local":  "Combo B y H",
+                                                            "gl":  3,
+                                                            "gv":  0,
+                                                            "visitante":  "Vieja Guardia",
+                                                            "nota":  "Walkover"
+                                                        },
+                                                        {
+                                                            "fecha":  "2 May",
+                                                            "local":  "Rueda la Pola",
+                                                            "gl":  1,
+                                                            "gv":  0,
+                                                            "visitante":  "La 31 F.C.",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2 May",
+                                                            "local":  "Unión 32",
+                                                            "gl":  3,
+                                                            "gv":  0,
+                                                            "visitante":  "Terra Mítica",
+                                                            "nota":  "Walkover"
+                                                        },
+                                                        {
+                                                            "fecha":  "8 May",
+                                                            "local":  "La 31 F.C.",
+                                                            "gl":  4,
+                                                            "gv":  0,
+                                                            "visitante":  "Districarnes",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "9 May",
+                                                            "local":  "Combo de Mao",
+                                                            "gl":  null,
+                                                            "gv":  null,
+                                                            "visitante":  "Combo B y H",
+                                                            "nota":  "Aplazado"
+                                                        },
+                                                        {
+                                                            "fecha":  "9 May",
+                                                            "local":  "Unión 32",
+                                                            "gl":  1,
+                                                            "gv":  0,
+                                                            "visitante":  "Vieja Guardia",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "9 May",
+                                                            "local":  "Z-4",
+                                                            "gl":  1,
+                                                            "gv":  1,
+                                                            "visitante":  "Rueda la Pola",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "23 May",
+                                                            "local":  "Unión 32",
+                                                            "gl":  2,
+                                                            "gv":  0,
+                                                            "visitante":  "Combo de Mao",
+                                                            "nota":  "Ajustado"
+                                                        },
+                                                        {
+                                                            "fecha":  "23 May",
+                                                            "local":  "La 31 F.C.",
+                                                            "gl":  0,
+                                                            "gv":  1,
+                                                            "visitante":  "Vieja Guardia",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "23 May",
+                                                            "local":  "Z-4",
+                                                            "gl":  0,
+                                                            "gv":  1,
+                                                            "visitante":  "Combo B y H",
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "29 May",
+                                                            "local":  "Rueda la Pola",
+                                                            "gl":  0,
+                                                            "gv":  4,
+                                                            "visitante":  "Districarnes",
+                                                            "nota":  "Goleada técnica"
+                                                        },
+                                                        {
+                                                            "fecha":  "Retiro",
+                                                            "local":  "Z-4",
+                                                            "gl":  3,
+                                                            "gv":  0,
+                                                            "visitante":  "Terra Mítica",
+                                                            "nota":  "Walkover retiro"
+                                                        },
+                                                        {
+                                                            "fecha":  "Retiro",
+                                                            "local":  "Vieja Guardia",
+                                                            "gl":  3,
+                                                            "gv":  0,
+                                                            "visitante":  "Terra Mítica",
+                                                            "nota":  "Walkover retiro"
+                                                        },
+                                                        {
+                                                            "fecha":  "Retiro",
+                                                            "local":  "La 31 F.C.",
+                                                            "gl":  3,
+                                                            "gv":  0,
+                                                            "visitante":  "Terra Mítica",
+                                                            "nota":  "Walkover retiro"
+                                                        },
+                                                        {
+                                                            "fecha":  "Retiro",
+                                                            "local":  "Rueda la Pola",
+                                                            "gl":  3,
+                                                            "gv":  0,
+                                                            "visitante":  "Terra Mítica",
+                                                            "nota":  "Walkover retiro"
+                                                        },
+                                                        {
+                                                            "fecha":  "Retiro",
+                                                            "local":  "Districarnes",
+                                                            "gl":  3,
+                                                            "gv":  0,
+                                                            "visitante":  "Terra Mítica",
+                                                            "nota":  "Walkover retiro"
+                                                        }
+                                                    ],
+                                       "tarjetas":  [
+                                                        {
+                                                            "fecha":  "2026-04-11",
+                                                            "equipo":  "La 31 F.C.",
+                                                            "jugador":  "Diego Yesid Caicedo",
+                                                            "dorsal":  "7",
+                                                            "tipo":  "Roja",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-23",
+                                                            "equipo":  "La 31 F.C.",
+                                                            "jugador":  "Andres Perez",
+                                                            "dorsal":  "15",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-09",
+                                                            "equipo":  "Z-4",
+                                                            "jugador":  "Camilo Murcia",
+                                                            "dorsal":  "9",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-09",
+                                                            "equipo":  "Z-4",
+                                                            "jugador":  "Camilo Murcia",
+                                                            "dorsal":  "9",
+                                                            "tipo":  "Roja",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-01",
+                                                            "equipo":  "Z-4",
+                                                            "jugador":  "Carlos Fernandez",
+                                                            "dorsal":  "8",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-01",
+                                                            "equipo":  "Z-4",
+                                                            "jugador":  "Daniel Bernal",
+                                                            "dorsal":  "10",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-23",
+                                                            "equipo":  "Z-4",
+                                                            "jugador":  "Daniel Bernal",
+                                                            "dorsal":  "10",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-01",
+                                                            "equipo":  "Z-4",
+                                                            "jugador":  "Daniel Bernal",
+                                                            "dorsal":  "10",
+                                                            "tipo":  "Azul",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-01",
+                                                            "equipo":  "Z-4",
+                                                            "jugador":  "Daniel Bernal",
+                                                            "dorsal":  "10",
+                                                            "tipo":  "Roja",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-01",
+                                                            "equipo":  "Combo de Mao",
+                                                            "jugador":  "Mauricio Reina",
+                                                            "dorsal":  "9",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-23",
+                                                            "equipo":  "Combo de Mao",
+                                                            "jugador":  "Mauricio Reina",
+                                                            "dorsal":  "9",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-09",
+                                                            "equipo":  "Rueda la Pola",
+                                                            "jugador":  "Ricardo Arana",
+                                                            "dorsal":  "18",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-29",
+                                                            "equipo":  "Rueda la Pola",
+                                                            "jugador":  "Diego Trujillo",
+                                                            "dorsal":  "9",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-04-25",
+                                                            "equipo":  "Unión 32",
+                                                            "jugador":  "Mai Pedraza",
+                                                            "dorsal":  "7",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-09",
+                                                            "equipo":  "Unión 32",
+                                                            "jugador":  "Gustavo Gonzales",
+                                                            "dorsal":  "18",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-23",
+                                                            "equipo":  "Unión 32",
+                                                            "jugador":  "Freddy Marroquin",
+                                                            "dorsal":  "6",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-23",
+                                                            "equipo":  "Combo B y H",
+                                                            "jugador":  "Gilberto Jurado",
+                                                            "dorsal":  "7",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-29",
+                                                            "equipo":  "Districarnes",
+                                                            "jugador":  "Javier Perez",
+                                                            "dorsal":  "16",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-04-25",
+                                                            "equipo":  "Vieja Guardia",
+                                                            "jugador":  "Horacio",
+                                                            "dorsal":  "13",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-04-25",
+                                                            "equipo":  "Vieja Guardia",
+                                                            "jugador":  "Fabian",
+                                                            "dorsal":  "7",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-04-25",
+                                                            "equipo":  "Vieja Guardia",
+                                                            "jugador":  "Cristian",
+                                                            "dorsal":  "5",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-23",
+                                                            "equipo":  "Vieja Guardia",
+                                                            "jugador":  "Juan Lopez",
+                                                            "dorsal":  "7",
+                                                            "tipo":  "Amarilla",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        },
+                                                        {
+                                                            "fecha":  "2026-05-23",
+                                                            "equipo":  "Vieja Guardia",
+                                                            "jugador":  "Juan Lopez",
+                                                            "dorsal":  "7",
+                                                            "tipo":  "Roja",
+                                                            "exp":  false,
+                                                            "nota":  ""
+                                                        }
+                                                    ]
+                                   },
+                       "Única":  {
+                                     "equipos":  [
+                                                     "Los Chaparro",
+                                                     "La Banda del Pelos",
+                                                     "Combo de Bin",
+                                                     "San Eusebio F.C.",
+                                                     "Fagama",
+                                                     "La Santa Fe",
+                                                     "Combo de Jonathan",
+                                                     "Tejar F.C."
+                                                 ],
+                                     "retirados":  [
+
+                                                   ],
+                                     "pjFijo":  {
+
+                                                },
+                                     "partidos":  [
+                                                      {
+                                                          "fecha":  "11 Abr",
+                                                          "local":  "Los Chaparro",
+                                                          "gl":  2,
+                                                          "gv":  0,
+                                                          "visitante":  "Combo de Bin",
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "11 Abr",
+                                                          "local":  "La Banda del Pelos",
+                                                          "gl":  2,
+                                                          "gv":  2,
+                                                          "visitante":  "Combo de Jonathan",
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "18 Abr",
+                                                          "local":  "Los Chaparro",
+                                                          "gl":  3,
+                                                          "gv":  0,
+                                                          "visitante":  "Combo de Jonathan",
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "18 Abr",
+                                                          "local":  "Combo de Bin",
+                                                          "gl":  0,
+                                                          "gv":  1,
+                                                          "visitante":  "La Banda del Pelos",
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "24 Abr",
+                                                          "local":  "Fagama",
+                                                          "gl":  1,
+                                                          "gv":  1,
+                                                          "visitante":  "La Santa Fe",
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "25 Abr",
+                                                          "local":  "Combo de Bin",
+                                                          "gl":  2,
+                                                          "gv":  0,
+                                                          "visitante":  "Combo de Jonathan",
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "25 Abr",
+                                                          "local":  "Los Chaparro",
+                                                          "gl":  1,
+                                                          "gv":  1,
+                                                          "visitante":  "La Banda del Pelos",
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "1 May",
+                                                          "local":  "Los Chaparro",
+                                                          "gl":  2,
+                                                          "gv":  0,
+                                                          "visitante":  "La Santa Fe",
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2 May",
+                                                          "local":  "Fagama",
+                                                          "gl":  0,
+                                                          "gv":  4,
+                                                          "visitante":  "Combo de Bin",
+                                                          "nota":  "Goleada técnica"
+                                                      },
+                                                      {
+                                                          "fecha":  "8 May",
+                                                          "local":  "Fagama",
+                                                          "gl":  1,
+                                                          "gv":  1,
+                                                          "visitante":  "Tejar F.C.",
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "9 May",
+                                                          "local":  "San Eusebio F.C.",
+                                                          "gl":  3,
+                                                          "gv":  1,
+                                                          "visitante":  "Combo de Jonathan",
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "9 May",
+                                                          "local":  "La Banda del Pelos",
+                                                          "gl":  1,
+                                                          "gv":  0,
+                                                          "visitante":  "La Santa Fe",
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "22 May",
+                                                          "local":  "Los Chaparro",
+                                                          "gl":  0,
+                                                          "gv":  0,
+                                                          "visitante":  "San Eusebio F.C.",
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "22 May",
+                                                          "local":  "La Banda del Pelos",
+                                                          "gl":  2,
+                                                          "gv":  0,
+                                                          "visitante":  "Fagama",
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "22 May",
+                                                          "local":  "La Santa Fe",
+                                                          "gl":  null,
+                                                          "gv":  null,
+                                                          "visitante":  "Combo de Jonathan",
+                                                          "nota":  "Aplazado"
+                                                      },
+                                                      {
+                                                          "fecha":  "23 May",
+                                                          "local":  "Combo de Bin",
+                                                          "gl":  1,
+                                                          "gv":  0,
+                                                          "visitante":  "Tejar F.C.",
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "29 May",
+                                                          "local":  "Fagama",
+                                                          "gl":  0,
+                                                          "gv":  2,
+                                                          "visitante":  "Los Chaparro",
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "29 May",
+                                                          "local":  "Tejar F.C.",
+                                                          "gl":  0,
+                                                          "gv":  2,
+                                                          "visitante":  "San Eusebio F.C.",
+                                                          "nota":  ""
+                                                      }
+                                                  ],
+                                     "tarjetas":  [
+                                                      {
+                                                          "fecha":  "2026-04-18",
+                                                          "equipo":  "Combo de Bin",
+                                                          "jugador":  "Carlos Sanchez",
+                                                          "dorsal":  "23",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-04-18",
+                                                          "equipo":  "Combo de Bin",
+                                                          "jugador":  "Edwin Quiroga",
+                                                          "dorsal":  "8",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-04-25",
+                                                          "equipo":  "Combo de Bin",
+                                                          "jugador":  "Edwin Quiroga",
+                                                          "dorsal":  "8",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  "\u0027+2\u0027: por confirmar"
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-04-25",
+                                                          "equipo":  "Combo de Jonathan",
+                                                          "jugador":  "Cristian Monroy",
+                                                          "dorsal":  "11",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-04-18",
+                                                          "equipo":  "Combo de Jonathan",
+                                                          "jugador":  "Jonathan Ortiz",
+                                                          "dorsal":  "1",
+                                                          "tipo":  "Roja",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-05-09",
+                                                          "equipo":  "Combo de Jonathan",
+                                                          "jugador":  "Jefferson",
+                                                          "dorsal":  "77",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  "\u0027Amarillas\u0027: por confirmar"
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-05-22",
+                                                          "equipo":  "La Banda del Pelos",
+                                                          "jugador":  "Yair Araujo",
+                                                          "dorsal":  "10",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-05-22",
+                                                          "equipo":  "La Banda del Pelos",
+                                                          "jugador":  "Harrison Cardenas",
+                                                          "dorsal":  "7",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-04-25",
+                                                          "equipo":  "Los Chaparro",
+                                                          "jugador":  "Harrison Cardenas",
+                                                          "dorsal":  "7",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-04-25",
+                                                          "equipo":  "Los Chaparro",
+                                                          "jugador":  "Harrison Cardenas",
+                                                          "dorsal":  "7",
+                                                          "tipo":  "Roja",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-05-01",
+                                                          "equipo":  "Los Chaparro",
+                                                          "jugador":  "Andres Libano",
+                                                          "dorsal":  "4",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-05-01",
+                                                          "equipo":  "Los Chaparro",
+                                                          "jugador":  "Jonathan Chaparro",
+                                                          "dorsal":  "8",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-04-18",
+                                                          "equipo":  "Los Chaparro",
+                                                          "jugador":  "Daniel Angel",
+                                                          "dorsal":  "13",
+                                                          "tipo":  "Roja",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-05-09",
+                                                          "equipo":  "La Santa Fe",
+                                                          "jugador":  "Camilo Espinosa",
+                                                          "dorsal":  "19",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-05-09",
+                                                          "equipo":  "La Santa Fe",
+                                                          "jugador":  "Camilo Espinosa",
+                                                          "dorsal":  "19",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-05-09",
+                                                          "equipo":  "La Santa Fe",
+                                                          "jugador":  "Jefferson Morales",
+                                                          "dorsal":  "7",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-05-09",
+                                                          "equipo":  "La Santa Fe",
+                                                          "jugador":  "Brayan Gomez",
+                                                          "dorsal":  "23",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-05-22",
+                                                          "equipo":  "Fagama",
+                                                          "jugador":  "Edgardo",
+                                                          "dorsal":  "17",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-05-22",
+                                                          "equipo":  "Fagama",
+                                                          "jugador":  "Edgardo",
+                                                          "dorsal":  "17",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-05-22",
+                                                          "equipo":  "Fagama",
+                                                          "jugador":  "Edgardo",
+                                                          "dorsal":  "17",
+                                                          "tipo":  "Roja",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-05-29",
+                                                          "equipo":  "Fagama",
+                                                          "jugador":  "Leonardo Pandilla",
+                                                          "dorsal":  "7",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-05-29",
+                                                          "equipo":  "Tejar F.C.",
+                                                          "jugador":  "Fabian Contreras",
+                                                          "dorsal":  "1",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      },
+                                                      {
+                                                          "fecha":  "2026-05-29",
+                                                          "equipo":  "Tejar F.C.",
+                                                          "jugador":  "Diego P.",
+                                                          "dorsal":  "7",
+                                                          "tipo":  "Amarilla",
+                                                          "exp":  false,
+                                                          "nota":  ""
+                                                      }
+                                                  ]
+                                 }
+                   }
+}
