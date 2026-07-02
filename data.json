@@ -158,13 +158,13 @@
           "nota": ""
         },
         {
-          "fecha": "9 May",
+          "fecha": "4 Jul",
           "local": "Combo de Mao",
+          "visitante": "Combo B y H",
           "gl": null,
           "gv": null,
-          "visitante": "Combo B y H",
-          "nota": "Aplazado",
-          "reprogramado": true
+          "nota": "",
+          "hora": "4:00PM"
         },
         {
           "fecha": "9 May",
@@ -185,10 +185,10 @@
         {
           "fecha": "23 May",
           "local": "Unión 32",
-          "visitante": "Combo de Mao",
           "gl": 2,
           "gv": 0,
-          "nota": ""
+          "visitante": "Combo de Mao",
+          "nota": "Ajustado"
         },
         {
           "fecha": "23 May",
@@ -282,17 +282,17 @@
           "fecha": "12 Jun",
           "local": "Combo de Mao",
           "visitante": "Districarnes",
-          "gl": null,
-          "gv": null,
-          "nota": "",
+          "gl": 1,
+          "gv": 0,
+          "nota": "Walkover retiro voluntario por situación externa",
           "hora": "7:00 PM"
         },
         {
           "fecha": "13 Jun",
           "local": "Combo de Mao",
           "visitante": "La 31 F.C.",
-          "gl": null,
-          "gv": null,
+          "gl": 2,
+          "gv": 0,
           "nota": "",
           "hora": "5:00 PM"
         },
@@ -300,10 +300,27 @@
           "fecha": "13 Jun",
           "local": "Vieja Guardia",
           "visitante": "Districarnes",
+          "gl": 3,
+          "gv": 0,
+          "nota": "Walkover retiro",
+          "hora": "8:00 PM"
+        },
+        {
+          "fecha": "4 Jul",
+          "local": "Unión 32",
+          "visitante": "Districarnes",
           "gl": null,
           "gv": null,
           "nota": "",
-          "hora": "8:00 PM"
+          "hora": "6:00PM"
+        },
+        {
+          "fecha": "4 Jul",
+          "local": "Combo B y H",
+          "visitante": "Districarnes",
+          "gl": null,
+          "gv": null,
+          "nota": "Aplazo"
         }
       ],
       "tarjetas": [
@@ -504,6 +521,15 @@
           "tipo": "Amarilla",
           "exp": false,
           "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "Combo de Mao",
+          "jugador": "Wilton Lugo",
+          "dorsal": "6",
+          "tipo": "Azul",
+          "exp": false,
+          "nota": ""
         }
       ]
     },
@@ -701,8 +727,8 @@
           "fecha": "12 Jun",
           "local": "Fagama",
           "visitante": "Combo de Jonathan",
-          "gl": null,
-          "gv": null,
+          "gl": 0,
+          "gv": 1,
           "nota": "",
           "hora": "8:00 PM"
         },
@@ -710,8 +736,8 @@
           "fecha": "13 Jun",
           "local": "Combo de Bin",
           "visitante": "San Eusebio F.C.",
-          "gl": null,
-          "gv": null,
+          "gl": 0,
+          "gv": 2,
           "nota": "",
           "hora": "6:00 PM"
         },
@@ -719,10 +745,37 @@
           "fecha": "13 Jun",
           "local": "La Banda del Pelos",
           "visitante": "Tejar F.C.",
+          "gl": 2,
+          "gv": 2,
+          "nota": "",
+          "hora": "7:00 PM"
+        },
+        {
+          "fecha": "4 Jul",
+          "local": "Combo de Bin",
+          "visitante": "La Santa Fe",
           "gl": null,
           "gv": null,
           "nota": "",
-          "hora": "7:00 PM"
+          "hora": "2:00PM"
+        },
+        {
+          "fecha": "4 Jul",
+          "local": "Combo de Jonathan",
+          "visitante": "Tejar F.C.",
+          "gl": null,
+          "gv": null,
+          "nota": "",
+          "hora": "3:00PM"
+        },
+        {
+          "fecha": "4 Jul",
+          "local": "La Santa Fe",
+          "visitante": "San Eusebio F.C.",
+          "gl": null,
+          "gv": null,
+          "nota": "",
+          "hora": "5:00PM"
         }
       ],
       "tarjetas": [
@@ -966,6 +1019,78 @@
           "jugador": "Camilo",
           "dorsal": "22",
           "tipo": "Roja",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "Fagama",
+          "jugador": "Rodrigo Gamboa",
+          "dorsal": "15",
+          "tipo": "Amarilla",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "Fagama",
+          "jugador": "Julian Gamboa",
+          "dorsal": "17",
+          "tipo": "Amarilla",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "Combo de Jonathan",
+          "jugador": "Cristian Mendez",
+          "dorsal": "10",
+          "tipo": "Amarilla",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "Combo de Jonathan",
+          "jugador": "Santiago Farfan",
+          "dorsal": "23",
+          "tipo": "Amarilla",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "Combo de Jonathan",
+          "jugador": "Santiago Farfan",
+          "dorsal": "23",
+          "tipo": "Azul",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "Tejar F.C.",
+          "jugador": "Gustavo Angel",
+          "dorsal": "15",
+          "tipo": "Amarilla",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "Combo de Bin",
+          "jugador": "Jhonathan Gaitan",
+          "dorsal": "6",
+          "tipo": "Amarilla",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "San Eusebio F.C.",
+          "jugador": "David Martinez",
+          "dorsal": "11",
+          "tipo": "Amarilla",
           "exp": false,
           "nota": ""
         }
