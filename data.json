@@ -540,7 +540,87 @@
           "exp": false,
           "nota": ""
         }
-      ]
+      ],
+      "eliminatoria": {
+        "activa": true,
+        "tercerPuesto": true,
+        "cuartos": [
+          {
+            "local": "Vieja Guardia",
+            "visitante": "Rueda la Pola",
+            "gl": null,
+            "gv": null,
+            "penales": null,
+            "fecha": "12 Jul",
+            "hora": "2:00PM"
+          },
+          {
+            "local": "La 31 F.C.",
+            "visitante": "Districarnes",
+            "gl": null,
+            "gv": null,
+            "penales": null,
+            "fecha": "12 Jul",
+            "hora": "5PM"
+          },
+          {
+            "local": "Combo de Mao",
+            "visitante": null,
+            "gl": null,
+            "gv": null,
+            "penales": null,
+            "fecha": "Por definir",
+            "hora": ""
+          },
+          {
+            "local": "Z-4",
+            "visitante": null,
+            "gl": null,
+            "gv": null,
+            "penales": null,
+            "fecha": "Por definir",
+            "hora": ""
+          }
+        ],
+        "semis": [
+          {
+            "local": "Unión 32",
+            "visitante": null,
+            "gl": null,
+            "gv": null,
+            "penales": null,
+            "fecha": "Por definir",
+            "hora": ""
+          },
+          {
+            "local": "Combo B y H",
+            "visitante": null,
+            "gl": null,
+            "gv": null,
+            "penales": null,
+            "fecha": "Por definir",
+            "hora": ""
+          }
+        ],
+        "tercero": {
+          "local": null,
+          "visitante": null,
+          "gl": null,
+          "gv": null,
+          "penales": null,
+          "fecha": "Por definir",
+          "hora": ""
+        },
+        "final": {
+          "local": null,
+          "visitante": null,
+          "gl": null,
+          "gv": null,
+          "penales": null,
+          "fecha": "Por definir",
+          "hora": ""
+        }
+      }
     },
     "Única": {
       "equipos": [
@@ -1175,7 +1255,87 @@
           "exp": false,
           "nota": ""
         }
-      ]
+      ],
+      "eliminatoria": {
+        "activa": true,
+        "tercerPuesto": true,
+        "cuartos": [
+          {
+            "local": "Tejar F.C.",
+            "visitante": "Combo de Jonathan",
+            "gl": null,
+            "gv": null,
+            "penales": null,
+            "fecha": "12 Jul",
+            "hora": "3:00PM"
+          },
+          {
+            "local": "La Santa Fe",
+            "visitante": "Fagama",
+            "gl": null,
+            "gv": null,
+            "penales": null,
+            "fecha": "12 Jul",
+            "hora": "4:00PM"
+          },
+          {
+            "local": "La Banda del Pelos",
+            "visitante": null,
+            "gl": null,
+            "gv": null,
+            "penales": null,
+            "fecha": "Por definir",
+            "hora": ""
+          },
+          {
+            "local": "Combo de Bin",
+            "visitante": null,
+            "gl": null,
+            "gv": null,
+            "penales": null,
+            "fecha": "Por definir",
+            "hora": ""
+          }
+        ],
+        "semis": [
+          {
+            "local": "Los Chaparro",
+            "visitante": null,
+            "gl": null,
+            "gv": null,
+            "penales": null,
+            "fecha": "Por definir",
+            "hora": ""
+          },
+          {
+            "local": "San Eusebio F.C.",
+            "visitante": null,
+            "gl": null,
+            "gv": null,
+            "penales": null,
+            "fecha": "Por definir",
+            "hora": ""
+          }
+        ],
+        "tercero": {
+          "local": null,
+          "visitante": null,
+          "gl": null,
+          "gv": null,
+          "penales": null,
+          "fecha": "Por definir",
+          "hora": ""
+        },
+        "final": {
+          "local": null,
+          "visitante": null,
+          "gl": null,
+          "gv": null,
+          "penales": null,
+          "fecha": "Por definir",
+          "hora": ""
+        }
+      }
     }
   },
   "anuncios": [
