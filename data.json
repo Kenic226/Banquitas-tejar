@@ -161,8 +161,8 @@
           "fecha": "4 Jul",
           "local": "Combo de Mao",
           "visitante": "Combo B y H",
-          "gl": null,
-          "gv": null,
+          "gl": 1,
+          "gv": 1,
           "nota": "",
           "hora": "4:00PM"
         },
@@ -309,8 +309,8 @@
           "fecha": "4 Jul",
           "local": "Unión 32",
           "visitante": "Districarnes",
-          "gl": null,
-          "gv": null,
+          "gl": 3,
+          "gv": 0,
           "nota": "",
           "hora": "6:00PM"
         },
@@ -318,8 +318,8 @@
           "fecha": "4 Jul",
           "local": "Combo B y H",
           "visitante": "Districarnes",
-          "gl": null,
-          "gv": null,
+          "gl": 3,
+          "gv": 0,
           "nota": "Aplazo"
         }
       ],
@@ -528,6 +528,15 @@
           "jugador": "Wilton Lugo",
           "dorsal": "6",
           "tipo": "Azul",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "Combo de Mao",
+          "jugador": "Wilton Lugo",
+          "dorsal": "",
+          "tipo": "Roja",
           "exp": false,
           "nota": ""
         }
@@ -754,8 +763,8 @@
           "fecha": "4 Jul",
           "local": "Combo de Bin",
           "visitante": "La Santa Fe",
-          "gl": null,
-          "gv": null,
+          "gl": 0,
+          "gv": 0,
           "nota": "",
           "hora": "2:00PM"
         },
@@ -763,8 +772,8 @@
           "fecha": "4 Jul",
           "local": "Combo de Jonathan",
           "visitante": "Tejar F.C.",
-          "gl": null,
-          "gv": null,
+          "gl": 0,
+          "gv": 0,
           "nota": "",
           "hora": "3:00PM"
         },
@@ -772,8 +781,8 @@
           "fecha": "4 Jul",
           "local": "La Santa Fe",
           "visitante": "San Eusebio F.C.",
-          "gl": null,
-          "gv": null,
+          "gl": 0,
+          "gv": 3,
           "nota": "",
           "hora": "5:00PM"
         }
@@ -1090,6 +1099,78 @@
           "equipo": "San Eusebio F.C.",
           "jugador": "David Martinez",
           "dorsal": "11",
+          "tipo": "Amarilla",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "Fagama",
+          "jugador": "Rodrigo Gamboa",
+          "dorsal": "15",
+          "tipo": "Amarilla",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "Fagama",
+          "jugador": "Julian Gamboa",
+          "dorsal": "17",
+          "tipo": "Amarilla",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "Combo de Jonathan",
+          "jugador": "Cristian Mendez",
+          "dorsal": "10",
+          "tipo": "Amarilla",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "Combo de Jonathan",
+          "jugador": "Santiago Farfan",
+          "dorsal": "23",
+          "tipo": "Amarilla",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "Combo de Jonathan",
+          "jugador": "Santiago Farfan",
+          "dorsal": "23",
+          "tipo": "Azul",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "Combo de Bin",
+          "jugador": "Jonathan Gaitan",
+          "dorsal": "",
+          "tipo": "Amarilla",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-12",
+          "equipo": "San Eusebio F.C.",
+          "jugador": "David Martienez",
+          "dorsal": "11",
+          "tipo": "Amarilla",
+          "exp": false,
+          "nota": ""
+        },
+        {
+          "fecha": "2026-06-13",
+          "equipo": "Tejar F.C.",
+          "jugador": "Gustavo Angel",
+          "dorsal": "15",
           "tipo": "Amarilla",
           "exp": false,
           "nota": ""
