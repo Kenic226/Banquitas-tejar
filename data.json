@@ -1340,6 +1340,12 @@
   },
   "anuncios": [
     {
+      "titulo": "📢 Así se jugarán las eliminatorias",
+      "texto": "Para premiar el desempeño durante la fase de todos contra todos, la organización de las finales será la siguiente:\n\n🏆 Clasificados directamente a semifinales\n🥇 1.º lugar\n🥈 2.º lugar\n\n🎟️ Playoff\n⚽ 5.º 🆚 7.º\n⚽ 6.º 🆚 8.º\n\n➡️ Los ganadores del playoff enfrentarán a los equipos que terminaron en:\n🥉 3.º lugar\n🏅 4.º lugar\n\n📌 Así queda el camino:\n\n1.º y 2.º ➜ Semifinal\n\n5.º vs 7.º ➜ Ganador ┐\n├➜ vs 3.º ➜ Semifinal\n6.º vs 8.º ➜ Ganador ┘\n├➜ vs 4.º ➜ Semifinal\n\n🏆 Los ganadores de las semifinales disputarán la Gran Final.",
+      "fecha": "2026-07-08",
+      "activo": true
+    },
+    {
       "titulo": "📢 Comunicado – Partidos de Playoff",
       "texto": "Se informa a todos los equipos que disputarán los playoff que, para poder jugar su respectivo encuentro, es obligatorio estar al día con todas las obligaciones del campeonato.\n\nAntes del partido, cada equipo deberá tener cancelado:\n✅ El valor de la inscripción (si tiene saldos pendientes).\n✅ Los W.O. pendientes.\n✅ Las tarjetas acumuladas que se encuentren pendientes de pago.\n\nLos equipos que no se encuentren a paz y salvo con estos conceptos no podrán disputar su partido de playoff hasta regularizar su situación.\n\nAgradecemos la colaboración y el compromiso de todos para garantizar el buen desarrollo de esta fase del campeonato.",
       "fecha": "2026-07-08",
