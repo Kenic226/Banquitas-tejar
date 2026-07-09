@@ -1340,6 +1340,12 @@
   },
   "anuncios": [
     {
+      "titulo": "📢 Comunicado Importante – Jugadores habilitados para las fases finales",
+      "texto": "Con el fin de garantizar la transparencia y evitar inconvenientes durante las fases finales del campeonato, se informa a todos los equipos que:\n\n✅ Únicamente podrán disputar los partidos de playoff, eliminatorias, semifinales y final aquellos jugadores que hayan participado al menos una vez durante la fase de todos contra todos (primera ronda).\n\n❌ Los jugadores que no hayan ingresado a la cancha en ningún partido de la primera ronda NO estarán habilitados para participar en las fases finales del torneo.\n\nEsta medida busca mantener la equidad deportiva y evitar inconvenientes o reclamaciones durante el desarrollo de las finales.\n\nAgradecemos la comprensión y el cumplimiento de esta norma por parte de todos los equipos.",
+      "fecha": "2026-07-09",
+      "activo": true
+    },
+    {
       "titulo": "📢 Así se jugarán las eliminatorias",
       "texto": "Para premiar el desempeño durante la fase de todos contra todos, la organización de las finales será la siguiente:\n\n🏆 Clasificados directamente a semifinales\n🥇 1.º lugar\n🥈 2.º lugar\n\n🎟️ Playoff\n⚽ 5.º 🆚 7.º\n⚽ 6.º 🆚 8.º\n\n➡️ Los ganadores del playoff enfrentarán a los equipos que terminaron en:\n🥉 3.º lugar\n🏅 4.º lugar\n\n📌 Así queda el camino:\n\n1.º y 2.º ➜ Semifinal\n\n5.º vs 7.º ➜ Ganador ┐\n├➜ vs 3.º ➜ Semifinal\n6.º vs 8.º ➜ Ganador ┘\n├➜ vs 4.º ➜ Semifinal\n\n🏆 Los ganadores de las semifinales disputarán la Gran Final.",
       "fecha": "2026-07-08",
