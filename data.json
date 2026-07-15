@@ -548,8 +548,8 @@
           {
             "local": "Vieja Guardia",
             "visitante": "Rueda la Pola",
-            "gl": null,
-            "gv": null,
+            "gl": 0,
+            "gv": 1,
             "penales": null,
             "fecha": "12 Jul",
             "hora": "2:00PM"
@@ -557,15 +557,15 @@
           {
             "local": "La 31 F.C.",
             "visitante": "Districarnes",
-            "gl": null,
-            "gv": null,
+            "gl": 1,
+            "gv": 0,
             "penales": null,
             "fecha": "12 Jul",
             "hora": "5PM"
           },
           {
             "local": "Combo de Mao",
-            "visitante": null,
+            "visitante": "La 31 F.C.",
             "gl": null,
             "gv": null,
             "penales": null,
@@ -574,7 +574,7 @@
           },
           {
             "local": "Z-4",
-            "visitante": null,
+            "visitante": "Rueda la Pola",
             "gl": null,
             "gv": null,
             "penales": null,
@@ -1263,24 +1263,24 @@
           {
             "local": "Tejar F.C.",
             "visitante": "Combo de Jonathan",
-            "gl": null,
-            "gv": null,
-            "penales": null,
+            "gl": 0,
+            "gv": 0,
+            "penales": "visitante",
             "fecha": "12 Jul",
             "hora": "3:00PM"
           },
           {
             "local": "La Santa Fe",
             "visitante": "Fagama",
-            "gl": null,
-            "gv": null,
+            "gl": 0,
+            "gv": 1,
             "penales": null,
             "fecha": "12 Jul",
             "hora": "4:00PM"
           },
           {
             "local": "La Banda del Pelos",
-            "visitante": null,
+            "visitante": "Fagama",
             "gl": null,
             "gv": null,
             "penales": null,
@@ -1289,7 +1289,7 @@
           },
           {
             "local": "Combo de Bin",
-            "visitante": null,
+            "visitante": "Combo de Jonathan",
             "gl": null,
             "gv": null,
             "penales": null,
@@ -1339,6 +1339,12 @@
     }
   },
   "anuncios": [
+    {
+      "titulo": "📢 Comunicado Oficial",
+      "texto": "Después de conversar con la mayoría de los delegados de los equipos que disputarán el segundo playoff, se evidenció que varios de ellos viajarán durante este fin de semana.\n\nPor esta razón, y con el fin de garantizar la participación de todos los equipos, el segundo playoff será aplazado para el próximo fin de semana.\n\nAgradecemos la comprensión de todos los participantes.\n\nAtentamente,\nLa Organización",
+      "fecha": "2026-07-15",
+      "activo": true
+    },
     {
       "titulo": "📢 Comunicado Importante – Jugadores habilitados para las fases finales",
       "texto": "Con el fin de garantizar la transparencia y evitar inconvenientes durante las fases finales del campeonato, se informa a todos los equipos que:\n\n✅ Únicamente podrán disputar los partidos de playoff, eliminatorias, semifinales y final aquellos jugadores que hayan participado al menos una vez durante la fase de todos contra todos (primera ronda).\n\n❌ Los jugadores que no hayan ingresado a la cancha en ningún partido de la primera ronda NO estarán habilitados para participar en las fases finales del torneo.\n\nEsta medida busca mantener la equidad deportiva y evitar inconvenientes o reclamaciones durante el desarrollo de las finales.\n\nAgradecemos la comprensión y el cumplimiento de esta norma por parte de todos los equipos.",
